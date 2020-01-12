@@ -1,0 +1,106 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu";
+}
+h1, .bname{
+  font-weight: bold;
+}
+.navbar{
+  z-index:1;
+}
+.logo {
+  height:2.7rem;
+  width:2.7rem;
+}
+.bname {
+  padding:0rem 0rem 0rem 1rem;
+  font-size:2rem;
+  font-family: "Montserrat";
+}
+
+.imgbox{
+  background-color:#cce0ff;
+  position:relative;
+  top:2.5rem;
+  text-align:center;
+}
+.carimg{
+  height:30rem;
+  width:45rem;
+  border-radius:1rem;
+  margin-top:2rem;
+}
+@media (max-width:1000px)and (min-width:430px){
+  .carimg{
+    height:19rem;
+    width:19rem;
+  }
+  .imgbox{
+    height:37rem;
+  }
+}
+@media (max-width:430px){
+    .bname{
+        padding:0px;
+        font-weight:400px;
+        font-size:19px;
+    }
+    .logo{
+      height:1.4rem;
+      width:1.4rem;
+    }
+    .carimg{
+        height:15rem;
+        width:16rem;
+    }
+    .imgbox{
+    height:25.8rem;
+  }
+    .cardet{
+     font-size:1.4rem;
+    }
+}
+
+.updates{
+  position:relative;
+  top:5rem;
+  background-color:#cce0ff;
+}
+.alumni-box{
+    height:23rem;
+    margin:0.4rem 9rem 1.5rem;
+}
+.create-update{
+   height:20rem;
+  margin:1rem 4rem 0.5rem
+}
+.update-box{
+  height:28rem;
+  margin:5rem 2rem 1rem;
+}
+.card:hover{
+    box-shadow: 10px 10px 11px rgba(33,33,33,1);
+}
+.cheader{
+  background-color:#ffd9b3;
+}
+.aluimg{
+  height:50%;
+  width:50%;
+  margin-top:3%;
+  margin-left:25%;
+  border-radius:50%;
+}
+
+@media (max-width:1200px)and (min-width:500px){
+  .alumni-box, .create-update{
+      margin:0.4rem 2.0rem 0.5rem 2rem;
+  }
+  .update-box{
+    margin:3rem 2rem 1.5rem 2rem ;
+  }
+}
